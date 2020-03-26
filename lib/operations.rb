@@ -9,7 +9,7 @@ end
 
 
 def not_safe?(speed)
-  speed = speed.s< 40 ? "Unsafe" : puts "Safe"
+  speed< 40 ? "Unsafe":"Safe"
 	end
 end
 	
